@@ -1,0 +1,409 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background: #026fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Lato', sans-serif; 
+    font-weight: normal;
+}
+h1{
+    font-size: 30px;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    color: rgb(162, 109, 197);
+}
+
+h1 strong{
+    color: #026fff;
+    color: #ef233c;
+}
+
+h2 {
+    color: #026fff;
+    color: #d90429;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
+    margin-bottom: 40px;
+
+}
+
+.milogo{
+    margin-top: 85%;
+    margin-left: 10%;
+    width: 100px;
+    height: 110px;
+    border-radius: 24px;
+
+}
+.sobre{
+ height: 10%;
+ width: 10%;
+ margin-left: 4%
+ align: right
+}
+
+
+
+.redes{
+    
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.redes img {
+    margin-top:0%;
+    width: 50px;
+}
+.experience-container{
+    background: #86a7d3;
+    background: #58adcf;
+    padding: 20px;
+
+}
+
+.experience-est-company, .experience-date{
+    margin: 10px 0;
+}
+.experience-description{
+    font-size: 20px;
+}
+.experience strong{
+    font-family: 'Lato', sans-serif; 
+    
+}
+
+.experience{
+    /* border: tamaño tipo estilo*/
+    border: 1px solid grey;
+    border-radius: 10px;
+   
+    margin-bottom: 15px;
+    padding: 20px;
+    background: rgb(129, 189, 218);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.experience-est-name{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.experience-details{
+    width: 500px;
+    height: inherit;
+    display: inline-block;
+}
+.experience-imageContainer{
+    display: inline-block;
+}
+.hero{
+    height: 300px;
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-color: #687a8d;
+    background-color: #2b2d42;
+    background-position-x: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.header{
+    background-color: #0d243b;
+    background-color: #686eb4;
+    color: rgb(115, 161, 221);
+    margin-top: 0;
+    display: flex;
+
+    /* Espacio entre elementos del componente*/
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+.header a{
+    color: rgb(51, 27, 138);
+    text-decoration: none;
+}
+.header ul{
+    display: flex;
+    height: inherit;
+    
+}
+.header ul li{
+    height: inherit;
+    
+}
+.header a {
+    display: block;
+    height: inherit;
+    display:flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.menu{
+    height: inherit;
+}
+ol, ul{
+    /* Sacamos margenes */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+figure{
+    margin: 0;
+}
+.footer{
+    background-color: #1b2127;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.footer img{
+    vertical-align: middle;
+}
+.footer a{
+    color: white;
+}
+
+.habilities-container{
+    padding: 0 20px;
+    margin: 0 20px 20px 20px;
+    padding: 0 10px;
+    background-color: #578faf;
+}
+
+.hability-percentage{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.hability-HTML{
+    width: 60%;
+    background-color: #d30d11; 
+}
+.hability-CSS{
+    width: 80%;
+    background-color: #BCE7C1;
+}
+.hability-java{
+    width: 90%;
+    background-color: #EED4D4;
+}
+.hability-web{
+    width: 80%;
+    background-color: #EFCC90;
+}
+
+.hability-Chino{
+    width: 40%;
+    background-color: #A3B2C9;
+}
+.hability-AT{
+    width: 70%;
+    background-color: #A5A5A5;    
+}
+.hability-percentage{
+    width: 100%;
+    background-color: #ddd;
+}
+.hability-imageContainer{
+    height: 50px;
+}
+
+.contact{
+    background-color: #2b2d42;
+    color:white;
+    height: 150px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+
+.social-link{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-size: 50px 50px;
+}
+
+
+
+.form-email{
+    border-color: grey;
+    padding: 10px 30px 10px 35px;
+    width: 220px;
+    
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+    border-radius: 5px;
+    border-style: solid;
+}
+.contact h3{
+    font-family: 'Lato', sans-serif; 
+    text-transform: uppercase;
+}
+.form-button{
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 100px;
+
+}
+/*
+Esto sirve para colocar elementos uno al lado del otro. 
+Flexbox tendrá a muchos box dentro, y de esta forma ocuparán el espacio horizontalmente, hasta que no
+quepan, y ahí seguirán abajo.- 
+*/
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    /* Para centrar elementos horizontalmente
+    justify-content: center;
+    */
+    /* Central elementos verticalmente. Requiere un height*/
+    height: 200px;
+    align-items: center;
+    /* Cajas se ponganm una al lado de la otra, o una abajo de la otra*/
+    /* flex-direction: column; */ 
+}
+.box {
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    flex-shrink: 0; /* Con esto no se achican las cajas si no caben en el width */ 
+    /* Si tenemos tres cajas, y queremos alinear la primera arriba la segunda al medio y la tercera abajo*/
+    /* align-self: flex-start;   */
+}
+.D{
+
+ font-family: 'Open Sans', sans-serif;
+    margin-top: 30%;
+    margin-left: 30%;
+    color: #ef233c;
+    font-size: 500%;
+    
+    animation:flotar 2s linear infinite alternate;
+
+}
+@keyframes flotar{
+    to{
+        margin-top: 15vh;
+    }
+}
+
+.vida{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 35%;
+    margin-left: 5%;
+    margin-right:20% ;
+    color: brown;
+    font-size: 250%;
+    
+
+}
+   
+.burbujas div{
+    width: 20px;
+    height: 20px;
+    background: #3067af;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 0;
+    animation: animarburbujas 2s linear infinite;
+}
+
+
+.burbujas div:nth-child(1){
+
+width: 45px;
+height: 42px;
+left: 10%;
+animation-duration: 4s;
+}
+.burbujas div:nth-child(2){
+    width: 35px;
+    height: 32px;
+    left: 25%;
+    animation-duration:9s;
+}
+.burbujas div:nth-child(2){
+    width: 35px;
+    height: 32px;
+    left: 25%;
+    animation-duration:7s;
+}
+
+.burbujas div:nth-child(3){
+    width: 35px;
+    height: 32px;
+    left: 55%;
+    animation-duration:5s;
+}
+.burbujas div:nth-child(4){
+    width: 35px;
+    height: 32px;
+    left: 65%;
+    animation-duration:7s;
+}
+.burbujas div:nth-child(5){
+    width: 35px;
+    height: 32px;
+    left: 75%;
+    animation-duration:6s;
+}
+.burbujas div:nth-child(6){
+    width: 35px;
+    height: 32px;
+    left: 85%;
+    animation-duration:8s;
+}
+.burbujas div:nth-child(7){
+    width: 35px;
+    height: 32px;
+    left: 95%;
+    animation-duration:7s;
+}
+@keyframes animarburbujas{
+    o%{
+        width: o;
+        height: o;
+     }
+     3%{
+        
+        width: 30px;
+        height: 30px;
+    }
+    50%{
+        opacity: 50%;
+        margin-left:
+    }
+    100%{
+        bottom: 100vh;
+        background : blue;
+
+    }
+
+   }
